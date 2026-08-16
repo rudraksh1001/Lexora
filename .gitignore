@@ -1,0 +1,66 @@
+# =========================
+# Environment Variables (SECRETS)
+# =========================
+.env
+.env.local
+.env.test
+.env.production
+.env.*.local
+*.env
+
+# =========================
+# Python (backend)
+# =========================
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+
+# =========================
+# Node / Frontend (Vite + React)
+# =========================
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Docker
+# =========================
+# n8n's local workflow state (named Docker volume, not a project file)
+n8n_data/
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local release artifacts
+# =========================
+docker-compose.release.yml
+.env.example.release

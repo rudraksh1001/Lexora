@@ -294,4 +294,5 @@ Notes if you deploy this yourself:
 | Frontend CORS errors | Restart compose; `CORS_ORIGINS` is set automatically by docker-compose |
 #   L e x o r a  
  #   L e x o r a  
+ #   L e x o r a  
  
