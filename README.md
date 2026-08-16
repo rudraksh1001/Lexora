@@ -293,4 +293,5 @@ Notes if you deploy this yourself:
 | Map not showing in Threat Feed | Ensure the backend is running; the map pulls from `/api/dashboard/summary` |
 | Frontend CORS errors | Restart compose; `CORS_ORIGINS` is set automatically by docker-compose |
 #   L e x o r a  
+ #   L e x o r a  
  
